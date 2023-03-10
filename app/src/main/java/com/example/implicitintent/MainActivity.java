@@ -41,10 +41,11 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 Intent myIntent = new Intent(Intent.ACTION_CALL_BUTTON);
-                if (myIntent.resolveActivity(getPackageManager()) != null) {
+
+
                     startActivity(myIntent);
 
-                }
+
 
             }
         });
